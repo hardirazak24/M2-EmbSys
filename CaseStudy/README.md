@@ -1,4 +1,5 @@
 # Washing Machine
+A Washing Machine is a machine to wash laundry such as clothes and sheets.
 ## Block Diagram:
 ![Blockdiagram](https://user-images.githubusercontent.com/73360521/154840097-22ef61bb-91d5-4a94-b827-f018c5a47551.png)
 
