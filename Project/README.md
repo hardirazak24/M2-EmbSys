@@ -27,6 +27,6 @@ The Heat control system is basically used for controlling the temperature of a V
 | --- | --- | --- | 
 | LR01 | Current temperature must be shown on the LCD Display | Technical | 
 | LR02 | The User Should be able to turn ON/OFF the heater | Technical |  
-| LR03 |  | Technical |  
+
 
 
