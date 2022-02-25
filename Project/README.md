@@ -15,4 +15,18 @@ The Heat control system is basically used for controlling the temperature of a V
 | `C_05` | **Microcontroller** | ATmega328 Microcontroller |
 | `C_06` | **Memory Chip** | It can store data or it can be used to process code |
 
+## High Level Requirements:
+| ID | Description | Category |
+| --- | --- | --- | 
+| HR01 | The system should be able to sense if the user is present | Technical | 
+| HR02 | The user should be able to vary the seat Temperature | Technical |  
+| HR03 | The LED should blink when heater is turned on | Technical |  
+
+## Low Level Requirement:
+| ID | Description | Category |
+| --- | --- | --- | 
+| LR01 | Current temperature must be shown on the LCD Display | Technical | 
+| LR02 | The User Should be able to turn ON/OFF the heater | Technical |  
+| LR03 |  | Technical |  
+
 
