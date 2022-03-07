@@ -5,5 +5,3 @@
 *.gcda
 *.html
 *.gcov
-*.elf
-*.hex
