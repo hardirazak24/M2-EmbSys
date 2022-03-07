@@ -32,7 +32,6 @@ This can be used in Apartments,House,Storage tanks.
 
 ## 1.5 Applications
 * This system can be used in our homes and industries.
-* 
 ## 2. Detail requirements
 ## High Level Requirements
 | ID | Description | Category | Status |
