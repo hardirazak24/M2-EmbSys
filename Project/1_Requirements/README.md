@@ -19,6 +19,7 @@ The cost for implementing this project is minimal
 * It Doesn't require any manpower to switch off the motor 
 * It avoids wastage of water  
 ## 1.4 SWOT ANALYSIS
+![Swot_Analysis_M2](https://user-images.githubusercontent.com/73360521/157111558-775f6236-691f-4f79-8d7d-62090b152d64.png)
 ## 4W&#39;s and 1&#39;H
 ## Who
 People turn on their motor and forget to switch it off, which causes wastage of water and electricity due to overflowing of water tank
