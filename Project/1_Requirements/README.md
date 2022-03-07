@@ -35,8 +35,16 @@ This can be used in Apartments,House,Storage tanks.
 * 
 ## 2. Detail requirements
 ## High Level Requirements
-- Turn OFF the pump when the tank is filled.
-- Turn ON the punp When water reaches the below bottom sensor.
-- Prevent overflow of water.
+| ID | Description | Category | Status |
+| --- | --- | --- | --- |
+| HR01 |It should turn off the motor when the tank is full | Technical | IMPLEMENTED |
+| HR02 | It must turn on the motor when the water reaches the bottom level sensor | Technical |  IMPLEMENTED |
+| HR03 | It must prevent the overflow of water | Technical |  IMPLEMENTED |
 ## Low level Requirements
 - Avoid overflow of water from the tank. 
+| ID | Description | HLR ID | Status |
+| --- | --- | --- | --- |
+| LR01 | If the bottom level switch is open before the upper level switch the water won't flow | HR02 | IMPLEMENTED |
+| LR02 | The Relay module should work as an aoutomatic switch | HR02 | IMPLEMENTED |
+| LR03 | It should turn on the motor when both water level sensors are open | HR02 |  IMPLEMENTED |
+| LR04 | It should turn on the motor when the upper level sensor is open and bottom level is closed  | HR02 | IMPLEMENTED |
