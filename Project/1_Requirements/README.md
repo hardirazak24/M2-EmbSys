@@ -15,10 +15,9 @@
 ## 1.3 Cost and Features 
 The cost for implementing this project is minimal
 ### 1.3.1 Features
-* Switch off motor automatically
-* avoid wastage of water  
-* Doesn't require manpower to switch off the motor 
-* Avoid breeding of mosquitoes on terrace
+* It Switch off the motor automatically
+* It Doesn't require any manpower to switch off the motor 
+* It avoids wastage of water  
 ## 1.4 SWOT ANALYSIS
 ## 4W&#39;s and 1&#39;H
 ## Who
