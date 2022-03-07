@@ -40,7 +40,6 @@ This can be used in Apartments,House,Storage tanks.
 | HR02 | It must turn on the motor when the water reaches the bottom level sensor | Technical |  IMPLEMENTED |
 | HR03 | It must prevent the overflow of water | Technical |  IMPLEMENTED |
 ## Low level Requirements
-- Avoid overflow of water from the tank. 
 | ID | Description | HLR ID | Status |
 | --- | --- | --- | --- |
 | LR01 | If the bottom level switch is open before the upper level switch the water won't flow | HR02 | IMPLEMENTED |
