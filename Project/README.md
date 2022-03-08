@@ -16,7 +16,10 @@ This Project is about Water Tank Pumping System. This System helps to prevent th
 | `4_TestPlanAndOutput` | Documents with test plan and output |
 | `5_Report` | Report containing all readme files and code |
 | `6_ImagesAndVideos` | Images and Videos of the project |
-| `7_Other` | Other documents |
+| `7_Output` | Output documents |
+
+## Simulation Picture
+![Screenshot (415)](https://user-images.githubusercontent.com/73360521/157271459-100b6ed5-dbf9-4e29-be16-71728a524f8d.png)
 
 ## Contributors List and Summary
 | PS No.  | Name | Features | Issuess Raised | Issues Resolved | No Test Cases | Test Case Pass |
