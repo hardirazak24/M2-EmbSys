@@ -1,6 +1,5 @@
 PROJ_NAME = Water_Pumping_System
 
-BUILD_FILE = Build
 SIMULATION = simulation
 
 SRC = src/project_main.c\
@@ -16,6 +15,7 @@ ifdef OS
    AVR_OBJ_CPY = avr-objcopy.exe
 else 
    ifeq ($(shell uname), Linux)
+	  RM = rm -rf
       FixPath = $1				
 	  CC = avr-gcc
 	  AVR_OBJ_CPY = avr-objcopy 
@@ -35,4 +35,4 @@ static_check: $(SRC)
 	cppcheck --enable=all $^
 
 clean:
-	rm -rf $(call FixPath,$(SIMULATION)/*)
+	$(RM) $(call FixPath,$(SIMULATION)/*.elf)	
