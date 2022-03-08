@@ -1,3 +1,13 @@
+/**
+ * @file project_main.c
+ * @author Hadi Abdul Razak
+ * @brief This is a system which can turn ON and OFF a water pump automatically
+ * @version 0.1
+ * @date 2022-03-08
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #ifndef __AVR_ATmega328__
 #define __AVR_ATmega328__
 #endif
