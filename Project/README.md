@@ -1,4 +1,6 @@
 # Water Tank Pumping System
+## Abstract
+* This Project is about Water Tank Pumping System. This System helps to prevent the wastage of water resources and to control the water tanks from overflow. Considering the aspect of comfort zones and the prevention of wastage of water resources, this project was proposed. This project will detect that water is low in the tank and it will automatically start the motor and switch off the motor when the tank gets filled. This project will save water as well as electricity.
 
 ## Workflows
 | CppCheck | Codiga | Codacy | 
