@@ -1,6 +1,7 @@
 PROJ_NAME = Water_Pumping_System
 
 BUILD_FILE = Build
+SIMULATION = simulation
 
 SRC = src/project_main.c\
 src/Relay.c\
@@ -21,17 +22,17 @@ else
    endif
 endif
 
-Burn:$(BUILD_FILE)
-	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(BUILD_FILE)/$(PROJ_NAME).elf)
+Burn:$(SIMULATION)
+	$(CC) -g -Wall -Os -mmcu=atmega328  $(INC) $(SRC) -o $(call FixPath,$(SIMULATION)/$(PROJ_NAME).elf)
 
-hex:$(call FixPath,$(BUILD_FILE)/$(PROJ_NAME).elf)
-	$(AVR_OBJ_CPY) $(HFLAGS) $< $(call FixPath,$(BUILD_FILE)/$(PROJ_NAME).hex)
+hex:$(call FixPath,$(SIMULATION)/$(PROJ_NAME).elf)
+	$(AVR_OBJ_CPY) $(HFLAGS) $< $(call FixPath,$(SIMULATION)/$(PROJ_NAME).hex)
 
-$(BUILD_FILE):
-	mkdir $(BUILD_FILE)
+$(SIMULATION):
+	mkdir $(SIMULATION)
 
 static_check: $(SRC)
 	cppcheck --enable=all $^
 
 clean:
-	rm -rf $(call FixPath,$(BUILD_FILE)/*)
+	rm -rf $(call FixPath,$(SIMULATION)/*)
