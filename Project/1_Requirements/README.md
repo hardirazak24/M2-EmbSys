@@ -27,7 +27,6 @@ The cost for implementing this project is minimal
 
 ## 1.6 Applications
 * This system can be used in our homes and industries.
-* 
 # 2. Detail requirements
 ## 2.1 High Level Requirements
 | ID | Description | Category | Status |
