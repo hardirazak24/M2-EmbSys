@@ -67,3 +67,12 @@ The cost for implementing this project is minimal
 | L_02 | Turn ON the water pump when top switch is open and bottom switch is closed | Turn ON Motor | Turn ON Motor | PASS | Technical |
 | L_03 | Turn OFF the water pump when both the switches are closed | Turn OFF Motor | Turn OFF Motor | PASS | Technical |
 
+# Simulation
+## When both the switches are open : Water will be Pumped to tank
+![Turn ON](https://user-images.githubusercontent.com/73360521/157276621-05c192a1-dcc0-46d5-8669-bbc4027c8508.png)
+## When both the switches are closed : Water will not be Pumped to tank
+![Turn off](https://user-images.githubusercontent.com/73360521/157276709-a34eace0-5b6a-49a0-b9de-cbbca7c13345.png)
+## When top level switch is open and bottom level is closed : Water will be Pumped to tank
+![Screenshot (416)](https://user-images.githubusercontent.com/73360521/157276893-06343c53-6f17-409a-a353-f05684fd9656.png)
+## When top level switch is closed and bottom level is opened : Water will not be Pumped to tank
+![Screenshot (417)](https://user-images.githubusercontent.com/73360521/157277148-b1e0d7ce-5e7c-4f4a-b731-08bfa5274e17.png)
