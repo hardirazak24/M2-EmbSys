@@ -1,6 +1,6 @@
 # Water Tank Pumping System
 ## Abstract
-* This Project is about Water Tank Pumping System. This System helps to prevent the wastage of water resources and to control the water tanks from overflow. Considering the aspect of comfort zones and the prevention of wastage of water resources, this project was proposed. This project will detect that water is low in the tank and it will automatically start the motor and switch off the motor when the tank gets filled. This project will save water as well as electricity.
+This Project is about Water Tank Pumping System. This System helps to prevent the wastage of water resources and to control the water tanks from overflow. Considering the aspect of comfort zones and the prevention of wastage of water resources, this project was proposed. This project will detect that water is low in the tank and it will automatically start the motor and switch off the motor when the tank gets filled. This project will save water as well as electricity.
 
 ## Workflows
 | CppCheck | Codiga | Codacy | 
@@ -10,7 +10,6 @@
 ## Folder Structure
 | Folder | Description |
 | --- | --- |
-| `0_Certificate` |Certificate achieved |
 | `1_Requirements` | Documents detailing requirements and research |
 | `2_Architecture` | Documents specifying architecture details |
 | `3_Implementation` | All codes and documentation |
@@ -18,4 +17,24 @@
 | `5_Report` | Report containing all readme files and code |
 | `6_ImagesAndVideos` | Images and Videos of the project |
 | `7_Other` | Other documents |
+
+## Contributors List and Summary
+| PS No.  | Name | Features | Issuess Raised | Issues Resolved | No Test Cases | Test Case Pass |
+| --- | --- | --- | --- | --- | --- | --- |
+| 99007641  | Hadi Abdul Razak  | F_01, F_02, F_03, F_04, F_05 | None | None | 4 | 4 |
+
+| Feature ID | Features |
+| --- | --- |
+| `F_01` |To Switch off the motor automatically |
+| `F_02` | It Doesn't require any manpower to switch off the motor  |
+| `F_03` | It avoids wastage of water  |
+| `F_04` | It avoids wastage of electricity  |
+| `F_05` | Implimentation of Multifile and Makefile |
+
+## Challenges Faced and How Was It Overcome
+| No. | Challenges | Solutions |
+| --- | --- | ---|
+| 1. | Faced errors while making Makefile | Referred some articles in web to solve the issue |
+
+
 
