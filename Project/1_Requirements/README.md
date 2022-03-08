@@ -9,7 +9,6 @@ The cost for implementing this project is minimal
 * It Switch off the motor automatically
 * It Doesn't require any manpower to switch off the motor 
 * It avoids wastage of water 
-*  
 ## 1.3 SWOT ANALYSIS
 ![Swot_Analysis_M2](https://user-images.githubusercontent.com/73360521/157111558-775f6236-691f-4f79-8d7d-62090b152d64.png)
 
